@@ -3,6 +3,12 @@
   padding: 0px;
 }
 
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}
 .w-200 {
   width: 200px;
 }
@@ -12,8 +18,8 @@
 }
 
 .w-600 {
-    width: 600px;
-  }
+  width: 600px;
+}
 
 .m-auto {
   margin: auto;
@@ -21,7 +27,6 @@
 img.align-items-center {
   align-items: center;
   justify-content: center;
-  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -29,6 +34,6 @@ img.align-items-center {
   float: left;
 }
 
-.btn{
-    text-align: center;
+.btn {
+  text-align: center;
 }
