@@ -13,23 +13,23 @@
 
 <body>
     <div class="icon m-auto ">
-        <img src="img/icon-angry.png" class="w-400 align-items-center d-block" alt="" srcset="">
-        <img src="img/icon_.jpg" class="w-400 align-items-center d-block" alt="" srcset="">
-        <img src="img/icon_smile.jpg" class="w-400 align-items-center d-block" alt="" srcset="">
+        <img src="img/icon-angry.png" id="angry" class="w-400 align-items-center d-block" alt="" srcset="">
+        <img src="img/icon_.jpg" id="icon_small" class="w-400 align-items-center d-block" alt="" srcset="">
+        <img src="img/icon_smile.jpg" id="smile" class="w-400 align-items-center d-block" alt="" srcset="">
     </div>
 
     <div class="align-items-center m-auto w-600">
 
         <div class="btn btn-angry fl-left">
-            <button value="angry" class="w-200"> :( </button>
+            <button value="angry" onclick="onClick('angry')" class="w-200"> :( </button>
         </div>
 
         <div class="btn btn-smile fl-left">
-            <button value="smile" class="w-200"> :) </button>
+            <button value="smile" class="w-200" onclick="onClick('smile')"> :) </button>
         </div>
 
         <div class="btn btn-icon fl-left">
-            <button value="icon_small" class="w-200"> :| </button>
+            <button value="icon_small" class="w-200" onclick="onClick('icon_small')"> :| </button>
         </div>
 
     </div>
