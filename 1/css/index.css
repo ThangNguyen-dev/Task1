@@ -21,6 +21,15 @@
   width: 600px;
 }
 
+.min-w-400{
+    min-width: 400px;
+}
+
+.fix-400{
+    height: 400px;
+    width: 400px;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -36,4 +45,45 @@ img.align-items-center {
 
 .btn {
   text-align: center;
+}
+
+.show {
+  animation-name: show;
+  animation-duration: 0.5s;
+  animation-iteration-count: unset;
+}
+
+.hide {
+  animation-name: hide;
+  animation-duration: 0.5s;
+  animation-iteration-count: initial;
+}
+@keyframes show {
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes hide {
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.75;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
 }
