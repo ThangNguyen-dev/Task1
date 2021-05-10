@@ -56,7 +56,7 @@ img.align-items-center {
 .hide {
   animation-name: hide;
   animation-duration: 0.5s;
-  animation-iteration-count: initial;
+  animation-iteration-count: unset;
 }
 @keyframes show {
   25% {
