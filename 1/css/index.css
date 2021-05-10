@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-400 {
+  width: 400px;
+}
+
+.w-600 {
+    width: 600px;
+  }
+
+.m-auto {
+  margin: auto;
+}
+img.align-items-center {
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fl-left {
+  float: left;
+}
+
+.btn{
+    text-align: center;
+}
