@@ -1,36 +1,37 @@
+
+
+var smileIcon = document.getElementById('smileIcon');
+var angryIcon = document.getElementById('angryIcon');
+var sadIcon = document.getElementById('sadIcon');
+
 function onClick(id) {
-    var elementAngry = document.getElementById('angry');
-    var elementSmile = document.getElementById('smile');
-    var elementIconSmall = document.getElementById('icon_small');
 
-    if (id == 'angry') {
-        elementAngry.classList.add('d-block', 'show');
-        elementSmile.classList.add('d-none');
-        elementIconSmall.classList.add('d-none');
+    if (id == 'smile') {
+        smileIcon.classList.add('d-block');
+        smileIcon.classList.remove('d-none');
 
-        elementSmile.classList.remove('d-block', 'hide');
-        elementIconSmall.classList.remove('d-block', 'hide');
-    } else if (id == 'smile') {
-        elementAngry.classList.add('d-none');
-        elementSmile.classList.add('d-block','show');
-        elementIconSmall.classList.add('d-none');
+        angryIcon.classList.remove('d-block');
+        angryIcon.classList.add('d-none');
 
-        elementAngry.classList.remove('d-block', 'hide');
-        elementIconSmall.classList.remove('d-block', 'hide');
-    } else if (id == 'icon_small') {
-        elementAngry.classList.add('d-none');
-        elementSmile.classList.add('d-none');
-        elementIconSmall.classList.add('d-block', 'show');
+        sadIcon.classList.remove('d-block');
+        sadIcon.classList.add('d-none');
+    } else if (id == 'angry') {
+        angryIcon.classList.add('d-block');
+        angryIcon.classList.add('d-block');
 
-        elementAngry.classList.remove('d-block', 'hide');
-        elementSmile.classList.remove('d-block', 'hide');
+        smileIcon.classList.remove('d-block');
+        smileIcon.classList.add('d-none');
+
+        sadIcon.classList.add('d-none');
+        sadIcon.classList.remove('d-block');
+    } else if (id == 'sad') {
+        sadIcon.classList.add('d-block');
+        sadIcon.classList.remove('d-none');
+
+        smileIcon.classList.add('d-none');
+        smileIcon.classList.remove('d-block');
+
+        angryIcon.classList.add('d-none');
+        angryIcon.classList.remove('d-block');
     }
 }
-
-// function addClass(element, className) {
-//     element.add(className);
-// }
-
-// function removeClass(element, className) {
-//     element.remove(className);
-// }

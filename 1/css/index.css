@@ -9,7 +9,6 @@
   height: 400px;
   width: 400px;
   border-radius: 400px;
-  background-color: #92c560;
   position: relative;
 }
 
@@ -61,18 +60,21 @@
   background-color: #a9db7a;
   margin: 15px;
 }
-.bg-angry {
-  background-color: #f0d06b;
-}
-.bg-sad {
-  background-color: #ee9295;
-}
-
 .border-smile {
   background-color: #90c666;
 }
+
+.bg-angry {
+  background-color: #f0d06b;
+  margin: 15px;
+}
 .border-angry {
   background-color: #d8ac53;
+}
+
+.bg-sad {
+  background-color: #ee9295;
+  margin: 15px;
 }
 .border-sad {
   background-color: #e17074;
@@ -80,4 +82,34 @@
 
 .m-auto {
   margin: auto;
+}
+
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}
+
+.center {
+  display: inline-block;
+}
+
+.m-auto {
+  margin: 30px auto;
+}
+
+.w-200 {
+  width: 50px;
+  height: 50px;
+}
+.align-items-center {
+  align-items: center;
+  justify-content: center;
+}
+.d-flex {
+  display: flex;
+}
+.ml-3{
+  margin-left: 30px;
 }
