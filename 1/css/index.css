@@ -1,89 +1,83 @@
+/* reset css */
 * {
-  margin: 0px;
   padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-.d-none {
-  display: none;
-}
-.d-block {
-  display: block;
-}
-.w-200 {
-  width: 200px;
-}
-
-.w-400 {
+.icon .border-face {
+  height: 400px;
   width: 400px;
+  border-radius: 400px;
+  background-color: #92c560;
+  position: relative;
 }
 
-.w-600 {
-  width: 600px;
+.icon-face {
+  width: 370px;
+  height: 370px;
+  border-radius: 400px;
+  box-sizing: border-box;
+  position: absolute;
 }
 
-.min-w-400{
-    min-width: 400px;
+.eye {
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  position: absolute;
 }
 
-.fix-400{
-    height: 400px;
-    width: 400px;
+.eye-left {
+  margin-left: 70px;
+  margin-top: 100px;
+}
+.eye-right {
+  margin-left: 265px;
+  margin-top: 100px;
+  float: right;
+}
+
+.mouth {
+  background-color: #90c666;
+  height: 25px;
+  width: 150px;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 120px;
+}
+
+.mounth-smile {
+  border-radius: 0 0 25px 25px;
+}
+.mounth-angry {
+  border-radius: 20px;
+}
+.mounth-sad {
+  border-radius: 25px 25px 1px 1px;
+}
+
+.bg-smile {
+  background-color: #a9db7a;
+  margin: 15px;
+}
+.bg-angry {
+  background-color: #f0d06b;
+}
+.bg-sad {
+  background-color: #ee9295;
+}
+
+.border-smile {
+  background-color: #90c666;
+}
+.border-angry {
+  background-color: #d8ac53;
+}
+.border-sad {
+  background-color: #e17074;
 }
 
 .m-auto {
   margin: auto;
-}
-img.align-items-center {
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-.fl-left {
-  float: left;
-}
-
-.btn {
-  text-align: center;
-}
-
-.show {
-  animation-name: show;
-  animation-duration: 0.5s;
-  animation-iteration-count: unset;
-}
-
-.hide {
-  animation-name: hide;
-  animation-duration: 0.5s;
-  animation-iteration-count: unset;
-}
-@keyframes show {
-  25% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  75% {
-    opacity: 0.75;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes hide {
-  25% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.75;
-  }
-  75% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 0;
-  }
 }
